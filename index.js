@@ -3,7 +3,7 @@ const express = require('express')
 
 const router = new express.Router()
 const app = express()
-const port = process.env.PORT || 3000
+//const port = process.env.PORT || 3000
 //process.env.TZ = 'America/Belize'
 
 app.use(express.json())
@@ -18,7 +18,6 @@ app.get('/', async (req, res)=>{
     
 })
 
-<html></html>
 app.listen(port, () => {
-    console.log('Server is up on port ' + port)
+   // console.log('Server is up on port ' + port)
 })
